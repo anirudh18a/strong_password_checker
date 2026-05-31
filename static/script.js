@@ -25,7 +25,7 @@ function checkPassword() {
         result.innerHTML = "Weak Password";
         result.style.color = "red";
     }
-    else if (strength <= 3) {
+    else if (strength <= 4) {
         result.innerHTML = "Medium Password";
         result.style.color = "orange";
     }
